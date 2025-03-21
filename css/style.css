@@ -54,11 +54,11 @@
 }
 
 body {
-    background-image: url('img/background.jpg');
-    background-size: cover; /* L'image couvre toute la zone du body */
-    background-position: center center; /* Centrer l'image horizontalement et verticalement */
-    background-repeat: no-repeat; /* Empêcher la répétition de l'image */
-    background-attachment: fixed; /* Optionnel : rend l'image fixe lors du défilement */
+    background-image: url('./img/background.jpg');
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
     
     font-family: "Cormorant Garamond", serif;
 
@@ -68,7 +68,7 @@ body {
     min-height: 100vh;
     max-width: 100%;
     margin: 0%;
-    box-sizing: border-box; /* cette ligne corrige ton problème */
+    box-sizing: border-box;
 }
 
 /*HEADER*/
