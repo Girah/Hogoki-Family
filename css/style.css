@@ -186,7 +186,10 @@ main {
   box-shadow: 0 0 30px 15px #726255;
   font-weight: 500;
   font-size: 18px;
+}
 
+.lien-arbre {
+  margin-bottom: 50px;
 }
 
 .paragraphe span {
@@ -194,7 +197,7 @@ main {
   font-weight: bold;
 }
 
-.losange {
+.cercle {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -206,7 +209,7 @@ main {
   margin: 20px;
 }
 
-.losange img {
+.cercle img {
   background-color:#ecb939;
   border-radius: 50%;
 }
@@ -216,6 +219,12 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 20px 0px 20px 0px;
+}
+
+#box-arbre {
+  background-color: #726255da;
+  padding: 10px;
+  box-shadow: 0 0 30px 15px #726255;
 }
 
 /*FOOTER*/
