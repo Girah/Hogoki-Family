@@ -268,27 +268,36 @@ footer {
     }
 
     .img-txt {
+      padding: 2ch;
+      display: flex;
       flex-direction: row;
       justify-content: space-between;
+      width: 100%;
     }
 
     .txt-img {
+      padding: 20px;
+      display: flex;
       flex-direction: row-reverse;
       justify-content: space-between;
+      width: 100%;
     }
 
-    .losange {
+    .cercle {
       width: 30%;
       width: 200px;
     }
-    .txt-para {
+    .txt-para, .txt-pres {
       width: 70%;
+      min-width: 300px;
       max-width: 750px;
     }
 
     .emblem-para {
       width: 30%;
     }
+
+    
 }
 
 /* Bureau (à partir de 1024px) */
